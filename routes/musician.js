@@ -11,7 +11,7 @@ router.get('/health', (req, res) => {
 
 // test
 router.get('/test', (req, res) => {
-  res.status('200').send("Test");
+  res.status('200').send("Test 2");
 });
 
 // retrieve all musicians from data store
